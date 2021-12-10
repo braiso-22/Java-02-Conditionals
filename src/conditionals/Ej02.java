@@ -9,7 +9,7 @@ package conditionals;
  *
  * @author Brais
  */
-public class Ej01 {
+public class Ej02 {
 
     /**
      * @param args the command line arguments
