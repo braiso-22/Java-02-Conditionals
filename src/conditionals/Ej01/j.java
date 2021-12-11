@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Brais
  */
-public class i {
+public class j {
 
     /**
      * @param args the command line arguments
@@ -19,13 +19,21 @@ public class i {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Escribe 2 numeros para saber si el segundo es"
-                + " divisor del primero");
+        System.out.println("Escribe 2 numeros para saber si el menor "
+                + "es divisor del mayor");
 
         int num1 = teclado.nextInt(), num2 = teclado.nextInt();
-        boolean valido = num2 != 0, divisor;
+        boolean valido, divisor, mayor = num2 > num1;
+
+        if (mayor) {
+            num1 += num2;
+            num2 = num1 - num2;
+            num1 -= num2;
+        }
+        valido = num2 != 0;
         if (valido) {
             divisor = num1 % num2 == 0;
+
             if (divisor) {
                 System.out.printf("%d es divisor de %d\n", num2, num1);
             } else {
@@ -35,7 +43,6 @@ public class i {
         } else {
             System.out.println("0 no puede ser un divisor");
         }
-
     }
 
 }
