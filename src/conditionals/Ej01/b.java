@@ -22,9 +22,9 @@ public class b {
         System.out.println("Escribe 2 numeros enteros: ");
 
         if (a.nextInt() > a.nextInt()) {
-            System.out.println("El primer número es mayor!");
+            System.out.println("El primer número es mayor! ");
         } else {
-            System.out.println("El primer número no es mayor!");
+            System.out.println("El primer número no es mayor! ");
         }
     }
 
