@@ -38,7 +38,6 @@ public class j {
                 System.out.printf("%d es divisor de %d\n", num2, num1);
             } else {
                 System.out.printf("%d es no divisor de %d\n", num2, num1);
-
             }
         } else {
             System.out.println("0 no puede ser un divisor");
