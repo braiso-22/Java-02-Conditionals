@@ -83,6 +83,10 @@ Java course part 2
     ax + by = c
     dx + ey = f
   
+    formula
+    x = ce - bf / ae - bd
+    y = af - cd / ae - bd
+  
   Realizar un programa que lea por teclado los dos conjuntos de coeficientes (a, b y c,
   y d, e y f) y calcule los valores para ‘x’ e ‘y’ según la fórmula descrita ¿Existen
   algunos casos para los cuales este algoritmo no funcione? Nota: cuando en
