@@ -26,13 +26,23 @@ public class Ej02 {
 
         /*
         a) este codigo evita que se haga una division entre 0 
-        consiguiendo que el programa no crashee
+        consiguiendo que el programa no crashee gracias al cortocicuito
          */
         if (b != 0 && a / b == 0) {
             r = a / b;
             System.out.println(r);
         }
-        
+        /*
+        b) este codigo tambien comprueba que no haya division entre 0
+        pero no hace el cortocicuito ya que la comprobación de que el divisor
+        no es cero debería ser antes
+         */
+        if (a / b == 0
+                && b != 0) {
+            r = a / b;
+            System.out.println(r);
+        }
+       
 
     }
 
