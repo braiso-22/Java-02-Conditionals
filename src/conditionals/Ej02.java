@@ -42,7 +42,14 @@ public class Ej02 {
             r = a / b;
             System.out.println(r);
         }
-       
+        /*
+        c) este codigo comprueba las 2 condiciones a la vez y si es verdad 
+        continua con las operaciones
+         */
+        if (b != 0 & a / b == 0) {
+            r = a / b;
+            System.out.println(r);
+        }
 
     }
 
