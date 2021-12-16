@@ -28,5 +28,16 @@ m) Leer tres números enteros y diga hay alguno mayor que cero, pero no todos.</
 </ul>
 </div>
 </li>
-
+<br>
+<li>Haz 3 versiones de un mismo programa, que pida que se introduzcan por teclado 2
+números double sobre sendas variables llamadas ‘a’ y ‘b’ y que incluyan las instrucciones
+que se muestran abajo. Para cada una de las versiones, ejecútalo varias veces,
+introduciendo cero para alguno de los valores y finalmente explica la diferencia de
+comportamiento entre cada una de las versiones:
+<div id="user-content-toc">
+  <ul> a) if (b !=0 && a/b==0) {r = a/b; System.out.println(r);}</ul>
+  <ul>b) if (a/b==0 && b !=0) {r = a/b; System.out.println(r);}</ul>
+  <ul> c) if (b !=0 & a/b==0) {r = a/b; System.out.println(r);}</ul>
+  </div>
+</li>
 </ol>
