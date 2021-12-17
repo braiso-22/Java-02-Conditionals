@@ -229,7 +229,34 @@ Java course part 2
       </tr>
     </table>
   </li>
-  
-
+  <br>
+  <li>
+    Realizar un programa al que se le introduzca la hora del día (0 –23) y nos diga que
+    días de la semana hay salida de bus (utilizar la tabla anterior).
+  </li>
+  <br>
+  <li>
+    Realizar un programa al que se le introduzcan DIA, MES, AÑO, que verifique que los
+    valores introducidos sean correctos, sin emplear las clases de fechas de Java.
+  </li>
+  <br>
+  <li>
+    Realizar un programa al que se le introduzcan DIA, MES, AÑO, que calcule el día
+    siguiente. Suponemos que los valores son correctos, sin emplear las clases de fechas de
+    Java.
+  </li>
+  <br>
+  <li>
+    Introduciendo dos fechas (día, mes, año), hacer un programa que nos diga cuál de
+    las dos es mayor (agrupa las condiciones de día, mes y año en una sola sentencia
+    condicional). Suponemos que se introducen fechas válidas y no empleamos las clases de
+    fecha de Java.
+  </li>
+  <br>
+  <li>
+    Realizar un programa que se le introduzca una nota (un valor entero entre 0 y 10) y
+    nos muestre por pantalla la nota final en texto, con la siguiente equivalencia: Muy
+    deficiente (0,1,2), Insuficiente (3,4), Aprobado (5,6), Notable (7,8) y Sobresaliente (9,10).
+  </li>
 
 </ol>
